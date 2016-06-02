@@ -1,0 +1,20 @@
+
+.change-stadium{
+    list-style: none;
+}
+
+.change-stadium li{
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+}
+
+.change-stadium span{
+    display: block;
+    float: left;
+}
+
+
+.change-stadium form{
+    float: left;
+}

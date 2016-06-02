@@ -1,0 +1,97 @@
+
+/***** about *****/
+
+#about{
+    background: transparent url('../../../../global/images/fire-bokeh-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bio{
+    width:70%;
+    padding: 20px 0;
+    float: left;
+}
+
+.bio p{
+    padding: 52px 40px 0;
+    color: #f0f0f0;
+}
+
+.portrait{
+    width:30%;
+    padding: 20px 0;
+    float: right;
+    text-align: center;
+}
+
+.portrait img{
+    display: inline;
+    width:100%;
+    max-width: 400px;
+    border:5px solid #f0f0f0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/***** work *****/
+
+#work{
+    padding: 30px 0;
+}
+
+#work h2{
+    text-align: center;
+}
+
+#work table{
+    padding: 10px 0;
+    text-align: center; 
+    width: 100%;
+}
+
+#work th, #work td{
+    width:33%;
+}
+
+#work th{
+    background: #673424;
+}
+
+#work th a{
+    color: #fff;
+    font-weight: bold;
+}
+
+#work tr:nth-child(even){
+    background: #f7f7f7;
+}
+
+
+@media screen and (max-width: 980px) {
+    .wrapper{
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+    .bio, .portrait{
+        width:100%;
+    }
+    
+    .bio p{
+        padding: 0 40px;
+    }
+    
+    .portrait{
+        box-sizing: border-box;
+        padding: 20px 50px 0;
+    }
+    
+    .portrait img{
+        box-sizing: border-box;
+    }
+}

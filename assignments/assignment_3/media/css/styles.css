@@ -1,0 +1,184 @@
+
+/****** CSS reset ******/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, table, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-size: 62.5%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #1693a1 ;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
+	-webkit-appearance: caret;
+	-moz-appearance: caret; /* mobile firefox too! */
+}
+
+/***** page defaults *****/
+
+h1{
+    font-size: 3.5em;
+    font-weight: 100;
+    text-align: center;
+    padding: 30px 0 0;
+}
+
+h2{
+    font-size: 2.4em;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px 0 20px;
+    color:#fff;
+}
+
+p, label{
+    font-weight: 100;
+    line-height: 150%;
+    font-size: 1.7em;
+}
+
+label{
+    font-weight: 100;
+    line-height: 150%;
+    font-size: 1.2em;
+}
+
+section{
+    width: 100%;
+    float: left;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+}
+
+form div{
+    padding: 10px 0;
+}
+input[type="text"], input[type="email"], input[type="search"], input[type="password"], select {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #225378;
+    padding: 10px;
+    font-size: 2.2em;
+    font-weight: 100;
+    border:0;
+    width:100%;
+    outline: none;
+    background: #f7f7f7;
+    box-sizing: border-box;
+	-webkit-appearance: caret;
+	-moz-appearance: caret; /* mobile firefox too! */
+}
+
+select{
+    cursor: pointer;
+    position: relative;
+    border-radius: 0;
+    background: #f7f7f7 url("../images/select-bkg.jpg") no-repeat right 4px;
+}
+
+.form-btns{
+    padding-top: 40px;
+}
+
+.form-btns span{
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width:50%;
+}
+
+input[type="submit"], input[type="reset"]{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    display: block;
+    color: #fff;
+    font-weight: 100;
+    border: none;
+    width:95%;
+    background: #225378;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 15px 0;
+    outline: none;
+}
+input[type="reset"]{
+    float: right;
+    background: #e67d00;
+}
+
+.radio-btns span{
+    text-align: center;
+    display: block;
+    float: left;
+    width: 33.3%;
+}
+
+/*numbers*/
+
+.numbers{
+    padding-top: 30px;
+    width: 420px;
+    margin: 0 auto;
+}
+.numbers div{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    margin: 0 5px;
+    float: left;
+    border-radius: 50% 50%;
+}
+.numbers div:last-child{
+    background: #e67d00;
+}
+.numbers div span{
+    color:#225378;
+    font-size: 2.8em;
+    line-height: 220%;
+}
+.numbers div:last-child span{
+    color: #fff;
+}

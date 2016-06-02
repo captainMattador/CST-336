@@ -1,0 +1,187 @@
+
+/****** CSS reset ******/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, table, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-size: 62.5%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #f0f0f0;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    display: block;
+}
+
+b{
+    font-weight: bold;
+}
+/***** page defaults *****/
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    padding: 10px 0;
+    color: #AA7362;
+    text-shadow: 1px 1px 0px #673424;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+ul, ol{
+    padding-left: 30px;
+}
+
+p, li {
+    line-height: 150%;
+    font-size: 1.5em;
+}
+
+p{
+    padding: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #AA7362;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #2E0D02;
+}
+
+a.inactive{
+    color:#3d3d3d;
+    text-decoration: none;
+    cursor: default;
+}
+
+section{
+    width: 100%;
+    float: left;
+}
+
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+/***** header *****/
+
+#header{
+    border-top: 1px solid #e3aa98;
+    text-align: center;
+}
+
+h1{
+    font-size: 3.4em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 33px 0;
+}
+
+h1 span{
+    font-size: .8em;
+    font-weight: 100;
+    text-shadow: none;
+    color: #673424;
+}
+
+/***** calendar *****/
+
+table{
+    margin: 0 auto;
+    text-align: center;
+}
+
+th{
+    color:#fff;
+    border:1px solid #3d3d3d;
+    background-color: #673424;
+    font-size: 2.4em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+td{
+    border:1px solid #3d3d3d;
+    font-size: 1.8em;
+    padding: 30px;
+}
+
+
+.current-month{
+    background-color: #fff;
+}
+
+.next-month{
+    background-color: #f7f7f7;
+}
+
+.current-day{
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.current-day span{
+    display: block;
+    padding: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.day-of-week{
+    background-color:#f7f7f7;
+    color:#AA7362;
+    font-weight: 100;
+    padding: 10px 30px;
+}
+.disclaimer{
+    margin:0 auto;
+    width: 576px;
+    font-size: 1em;
+}
+
+.disclaimer p{font-size: 1em;}

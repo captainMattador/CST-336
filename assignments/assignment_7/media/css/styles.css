@@ -1,0 +1,141 @@
+
+
+.books{
+	float: left;
+	width: 100%;
+	padding: 0 0 40px;
+	margin:0;
+	list-style: none;
+}
+
+.books li{
+	display: block;
+	float: left;
+	width: 25%;
+	padding: 5px 10px;
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;  
+}
+
+.book-wrapper .book-img img{
+	display: block;
+	width: 100%;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-ms-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
+}
+
+.book-wrapper{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	border:1px solid #d1d1d1;
+	padding: 10px;
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;
+ 
+}
+
+.book-img{
+	background: #3d3d3d;
+}
+
+.book-info{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom:0;
+	left:0;
+	padding: 20px;
+	filter: alpha(opacity=0);
+    opacity: 0;
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;  
+
+    -webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-ms-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
+}
+
+.book-info h3{
+	float: left;
+	width:100%;
+	color:#fff;
+	text-shadow:none;
+	font-size: 1.8em;
+	line-height: 100%;
+	padding: 0;
+}
+
+.book-info p{
+	float: left;
+	width:100%;
+	color:#fff;
+	font-size: 1.4em;
+	line-height: 100%;
+	padding: 5px 0;
+}
+.fa-star{
+	color: #e7ba08;
+}
+
+.rating-wrap{
+	display: block;
+	float: left;
+	width: 70px;
+}
+
+.rating-mask{
+	display: block;
+	float: left;
+	width: 50%;
+	overflow: hidden;
+}
+
+.rating-inner-mask{
+	display: block;
+	float: left;
+	width: 70px;
+}
+
+p.add, p.current{
+	font-size: .8em;
+}
+.add-rating-wrap{
+	float: left;
+	width: 100%;
+}
+.add-rating-wrap a:hover .fa-star{
+	cursor:pointer;
+	color: #e7ba08;
+}
+.add-rating-wrap a .fa-star{
+	color:#fff;
+}
+
+/*css 3*/
+.book-wrapper:hover .book-img img{
+	zoom: 1;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+}
+
+.book-wrapper:hover .book-info{
+	filter: alpha(opacity=1);
+    opacity: 1;
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;
+    -webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-ms-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
+}

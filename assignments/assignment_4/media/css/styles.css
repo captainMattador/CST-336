@@ -1,0 +1,177 @@
+
+
+h2{
+    color: #3d3d3d;
+    text-shadow: none;
+}
+#header{
+    position: relative;
+    border-bottom: 1px solid #666;
+}
+
+#user{
+    position: relative;
+    float: left;
+    width:100%;
+    height:40px;
+    background: #784132;
+    z-index: 1;
+}
+.user-info{
+    padding-left: 20px; 
+    width: 300px;
+    float: left;
+}
+.user-info img{
+    float: left;
+    display: inline-block;
+    padding: 6px 15px 0;
+    width: 30px;
+    text-shadow: 1px 1px 0px #673424;
+}
+
+.user-info h3{
+    text-shadow: none;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    color: #fff;
+}
+
+.user-info p{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0;
+}
+
+.user-btn a.cta{
+    margin: 0 10px;
+    background: #fff;
+    color: #784132;
+}
+.user-btn a.cta:hover{
+    background: #fff;
+    color: #784132;
+}
+
+.user-btn{
+    float: right;
+    padding: 5px 20px 0 0;
+}
+/**** socks styling *****/
+
+#page-info table{
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+#page-info td, #page-info th{
+    border:1px solid #3d3d3d;  
+}
+
+#page-info th{
+    background: #3d3d3d;
+    color: #fff;   
+}
+
+.tables, .page-title, .page-status{
+    margin: 0 auto;
+    float: left;
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.page-title{
+    padding-bottom: 0;
+}
+.page-status{
+    padding-top: 0;
+}
+
+.page-title h2{
+    float: left;
+    padding-right: 20px;
+}
+
+.page-title a{
+    float: left;
+    font-size: 1.2em;
+    padding-top: 22px;
+}
+
+
+#page-info .filters, #page-info .filters td{
+    border: none;
+}
+
+.main-table input[type="submit"]{
+    cursor: pointer;
+    background: none;
+    border:none;
+    color: #784132;
+    text-align: center;
+}
+
+.tables input[type="text"]{
+    background: none;
+    border:0;
+    outline: 0;
+}
+
+.insert-form, .prod-form{
+    text-align: center;
+}
+#page-info .insert-form td, #page-info .insert-form th{ 
+    text-align: left; 
+}
+form input[type="submit"].table-action{
+    margin-top: 20px;
+}
+
+.product-update-btn{
+    float: right;
+}
+
+.product-update-btn input[type="submit"]{
+    float: right;
+    background: none;
+    color: #784132;
+}
+
+.login-wrapper{
+    text-align: center;
+    width:400px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.login-wrapper div.inner-wrap{
+    border-radius: 20px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #784132;
+}
+
+.login-wrapper div{
+    padding: 10px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.login-wrapper input[type="text"], .login-wrapper input[type="password"], input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-status{
+    text-align: center;
+}
+
+
+
+
+

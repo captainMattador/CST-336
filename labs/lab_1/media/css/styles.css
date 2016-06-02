@@ -1,0 +1,207 @@
+
+/****** CSS reset ******/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-size: 62.5%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #666;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***** page defaults *****/
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    padding: 10px 0;
+    color: #2d3684;
+}
+
+h1{
+    font-size: 4em;
+    color: #eaae65;
+    text-shadow: 1px 1px 1px #2d3684;
+    padding-top: 80px;
+}
+
+h2{
+    font-size: 2.8em;
+}
+
+ul, ol{
+    padding-left: 30px;
+}
+
+p, li {
+    line-height: 150%;
+    font-size: 1.2em;
+}
+
+p{
+    padding: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid #2c3684;
+    vertical-align: middle;
+}
+
+td, th{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.8em;
+    padding: 8px 12px;
+    display: inline-block;
+    border: 1px solid #eaae65;
+    background: #BF7D2D;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #eaae65;
+}
+
+section{
+    width: 100%;
+    float: left;
+}
+
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+}
+
+/***** nav *****/
+
+#main-nav{
+    height: 75px;
+}
+
+#main-nav ul{
+    padding-top: 13px;
+    list-style: none;
+    float: left;
+}
+
+#main-nav ul li{
+    font-size: 1.8em;
+    padding: 0 20px;
+    float: left;
+}
+
+#main-nav .logo{
+    padding-left: 0;
+}
+
+#main-nav a{
+    display: block;
+    padding-top: 13px;
+    color:#BF7D2D;
+    text-decoration: none;
+}
+
+#main-nav .logo a{
+    padding-top: 0;
+}
+
+#main-nav a:hover{
+    color: #eaae65;
+}
+
+#main-nav a.active{
+    color: #2c3684;
+}
+
+/***** hero *****/
+
+#hero{
+    border-top:2px solid #BF7D2D;
+    border-bottom:2px solid #BF7D2D;
+    height:200px;
+    text-align: center;
+    background: transparent url("../images/header-image.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/***** info *****/
+
+#info{
+    padding: 30px 0;
+}
+
+.article-image{
+    border:1px solid #BF7D2D;
+    margin-left: 20px;
+    float: right;
+}
+
+.cta-wrap{
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#info th{
+    background: #2c3684;
+    font-weight: bold;
+    color: #fff;
+}
+
+#info .opinion{
+    background: #BF7D2D;
+    color:#fff;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#info td.even{
+    background: #f7f7f7;
+    color:#3d3d3d;
+}

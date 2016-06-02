@@ -1,0 +1,240 @@
+
+/****** CSS reset ******/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, table, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-size: 62.5%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #f0f0f0;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    display: block;
+}
+
+/***** page defaults *****/
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    padding: 10px 0;
+    color: #AA7362;
+    text-shadow: 1px 1px 0px #673424;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+ul, ol{
+    padding-left: 30px;
+}
+
+p, li {
+    line-height: 150%;
+    font-size: 1.5em;
+}
+
+p{
+    padding: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #AA7362;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #2E0D02;
+}
+
+a.inactive{
+    color:#3d3d3d;
+    text-decoration: none;
+    cursor: default;
+}
+
+b{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+td, th{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+
+section{
+    width: 100%;
+    float: left;
+}
+
+.wrapper{
+    margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+}
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container_10 .grid_1 {
+	width:78px;
+}
+
+.container_10 .grid_2 {
+	width:176px;
+}
+
+.container_10 .grid_3 {
+	width:274px;
+}
+
+.container_10 .grid_4 {
+	width:372px;
+}
+
+.container_10 .grid_5 {
+	width:470px;
+}
+
+.container_10 .grid_6 {
+	width:568px;
+}
+
+.container_10 .grid_7 {
+	width:666px;
+}
+
+.container_10 .grid_8 {
+	width:764px;
+}
+
+.container_10 .grid_9 {
+	width:862px;
+}
+
+.container_10 .grid_10 {
+	width:960px;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+/***** header *****/
+
+#header{
+    border-top: 1px solid #e3aa98;
+    text-align: center;
+}
+
+h1{
+    font-size: 3.4em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 33px 0;
+}
+
+h1 span{
+    font-size: .8em;
+    font-weight: 100;
+    text-shadow: none;
+    color: #673424;
+}
+
+h2 span{
+    font-size: .5em;
+}
+
+a.cta, input[type="submit"]{
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 12px;
+  background: #784132;
+  border: none; 
+  color: #fff;
+}
+
+a.cta:hover, input[type="submit"]:hover{
+  text-decoration: none;
+  color: #fff;
+}

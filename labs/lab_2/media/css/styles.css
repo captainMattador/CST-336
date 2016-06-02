@@ -1,0 +1,38 @@
+
+table {
+    margin: 10px auto;
+    text-align: center;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #3d3d3d;
+}
+
+td.odd{
+    background-color:#673424;
+    color:#fff;
+}
+
+td.even{
+    background-color:#f7f7f7;
+}
+
+/***** page defaults *****/
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px 0;
+    color: #666;
+    text-shadow: none;
+}
+
+h2 span{
+    color: #AA7362;
+}
