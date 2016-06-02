@@ -1,8 +1,8 @@
 <?php
 
 $config = array(
-	'HOST'        => 'localhost',
-	'DB'          => 'boze4420',
-    'DB_USERNAME' => 'boze4420',
-    'DB_PASSWORD' => 'Anxious2016'
+	'HOST'        => 'host',
+	'DB'          => 'db',
+    'DB_USERNAME' => 'username',
+    'DB_PASSWORD' => 'pw'
 );
